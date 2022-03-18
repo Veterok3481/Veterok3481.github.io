@@ -64,9 +64,9 @@ nav{
     padding-top: 108px;
 }
 .main2img{
-    width: 100%;
-    height: auto;
-    background: url("../img/mini_boy.png") 50% 100% no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 130px;
 }
 .main2text{
@@ -84,6 +84,7 @@ nav{
     background: none;
     border-radius: 5px;
     color: #6f707e;
+    margin-top: 36px;
 }
 .main3 h3{
     text-align: center;
@@ -91,12 +92,13 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    padding-top: 205px;
+    padding-top: 160px;
 }
 .main3img {
     width: auto;
     height: 251px;
     background: url("../img/bg1.jpg") center/cover no-repeat;
+    margin-top: 96px;
 }
 .main3text{
     padding-top: 218px;
