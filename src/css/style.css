@@ -92,14 +92,27 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 .main3img {
     width: auto;
-    height: 251px;
+    height: 520px;
     background: url("../img/bg1.jpg") center/cover no-repeat;
-    margin-top: 96px;
+    margin-top: 85px;
 }
 .main3text{
-    padding-top: 218px;
+    padding-top: 145px;
+    margin-left: 417px;
+    float: left;
+    width: 213px;
+    text-align: center;
+}
+.zagolovoktext{
+    font-weight: bold;
+    color: #cf7600;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.zagolovokimg{
+    padding-bottom: 17px;
 }
