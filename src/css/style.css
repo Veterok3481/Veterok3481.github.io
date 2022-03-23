@@ -88,7 +88,7 @@ nav{
 }
 .main3 h3{
     text-align: center;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
     color: #263244;
@@ -97,12 +97,13 @@ nav{
 .main3img {
     width: auto;
     height: 520px;
-    background: url("../img/bg1.jpg") center/cover no-repeat;
+    background: url("../img/main3bg.jpg") center/cover no-repeat;
     margin-top: 85px;
 }
 .main3text{
     padding-top: 145px;
-    margin-left: 417px;
+    margin-left: 83px;
+    margin-right: auto;
     float: left;
     width: 213px;
     text-align: center;
@@ -115,4 +116,60 @@ nav{
 }
 .zagolovokimg{
     padding-bottom: 17px;
+}
+.main3text1{
+    padding-top: 145px;
+    margin-left: 290px;
+    float: left;
+    width: 213px;
+    text-align: center;
+}
+.main3text p{
+    color: #3f495a;
+}
+.main3text1 p{
+    color: #3f495a;
+}
+.main4 h3{
+    padding-top: 110px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+}
+.main4divtext{
+    padding-top: 72px;
+    text-align: center;
+    font-size: 15px;
+    color: #3f495a;
+}
+.main4img{
+    display: block;
+    padding-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 42px;
+}
+.main4text{
+    margin-left: 250px;
+}
+.main4text h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #384354;
+}
+.main4p{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    color: #3f495a;
+}
+.main4text input{
+    color: #fff;
+    height: 44px;
+    width: 201px;
+    font-size: 17px;
+    border: 1px;
+    border-radius: 7px;
+    background-color: #3f495a;
 }
