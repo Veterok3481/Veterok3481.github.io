@@ -214,22 +214,36 @@ nav{
     margin-left: 320px;
     color: #737373;
     padding-top: 59px;
+    background-color: #eeeeee;
+    width: 980px;
 }
 #main5select2{
-     display: block;
+    display: block;
     margin-left: 320px;
     color: #737373;
-    padding-top: 59px
+    padding-top: 59px;
+    background-color: #eeeeee;
+    width: 980px;
 }
 #main5select3{
-     display: block;
+    display: block;
     margin-left: 320px;
     color: #737373;
     padding-top: 59px;
     padding-bottom: 87px;
+    background-color: #eeeeee;
+    width: 980px;
 }
 .main5text1{
     margin-left: 300px;
     font-weight: bold;
     font-size: 18px;
+    color: #1c2534;
+}
+.main5text0{
+    margin-left: 990px;
+    color: #1c2534;
+    font-size: 22px;
+}
+.main6 h3{
 }
