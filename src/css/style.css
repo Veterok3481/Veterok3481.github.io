@@ -383,3 +383,41 @@ nav{
     font-weight: bold;
     padding-bottom: 40px;
 }
+.main8input{
+    margin-left: 438px;
+}
+.main8input input{
+    width: 352px;
+    height: 21px;
+    padding-left: 10px;
+    background-color: #d2d6dc;
+    margin-left: 25px;
+}
+.main8input1 textarea{
+    display: block;
+    background: #d2d6dc;
+    margin-left: 463px;
+    margin-top: 16px;
+    width: 733px;
+    height: 92px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.main8input2 input{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 770px;
+    margin-top: 28px;
+    border: 3px solid #f9faff;
+    border-radius: 5px;
+    background: none;
+    height: 42px;
+    width: 120px;
+}
+.main9{
+    background: url("../img/map.jpg") center no-repeat;
+    height: 350px;
+    width: auto;
+}
