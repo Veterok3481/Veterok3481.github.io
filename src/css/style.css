@@ -157,6 +157,16 @@ main{
         font-size: 24px;
     }
 }
+@media (max-width: 575px){
+    .main3 h3{
+        padding-top: 60px;
+    }
+}
+@media (max-width: 483px){
+    .zagolovoktext{
+        font-size: 20px;
+    }
+}
 .main4 h3{
     padding-top: 110px;
     text-align: center;
@@ -173,12 +183,10 @@ main{
 }
 .main4img{
     display: block;
-    margin-left: 55px;
+    width: 100%;
     padding-top: 41px;
     text-align: center;
     padding-bottom: 42px;
-}
-.main4text{
 }
 .main4text h4{
     font-size: 20px;
@@ -199,93 +207,110 @@ main{
     border-radius: 7px;
     background-color: #63b5ae;
 }
-.main4text1{
-    margin-left: 250px;
-}
 .main4text1 h4{
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     color: #384354;
 }
 .main4text1 p{
-    color: 3f495a;
-    width: 1200px;
-    font-size: 18px;
-    padding-bottom: 283px;
+    color: #3f495a;
+    font-size: 16px;
+}
+@media (max-width: 575px){
+    .main4p{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .main4 h3{
+        padding-top: 50px;
+    }
+    .main4divtext{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 991px){
+    .main4text input{
+        margin-bottom: 30px;
+    }
 }
 .main5 h2{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
+    padding-top: 150px;
     
 }
 .main5text{
     font-size: 23px;
     font-weight: bold;
-    margin-left: 300px;
     padding-top: 40px;
     color: #1c2534;
 }
 .main5textpadding{
     font-size: 23px;
     font-weight: bold;
-    margin-left: 300px;
     padding-top: 59px;
     color: #1c2534;
 }
 #main5select1{
+    margin-left: 20px;
     display: block;
-    margin-left: 320px;
     color: #737373;
     height: 58px;
     margin-top: 22px;
     background-color: #eeeeee;
-    width: 980px;
 }
 #main5select2{
+    margin-left: 20px;
     display: block;
-    margin-left: 320px;
     color: #737373;
     height: 58px;
     margin-top: 22px;
     background-color: #eeeeee;
-    width: 980px;
 }
 #main5select3{
+    margin-left: 20px;
     display: block;
-    margin-left: 320px;
     color: #737373;
     height: 58px;
     margin-top: 22px;
     margin-bottom: 55px;
     background-color: #eeeeee;
-    width: 980px;
 }
 .main5text1{
-    margin-left: 300px;
     font-weight: bold;
     font-size: 18px;
     color: #1c2534;
 }
 .main5text0{
-    margin-left: 925px;
     color: #1c2534;
     font-size: 22px;
     display: inline-block;
     padding-bottom: 15px;
 }
 .main5text00{
-    margin-left: 883px;
     color: #1c2534;
     font-size: 22px;
     display: inline-block;
+}
+.main5button{
+    text-align: center;
+}
+.main5button input{
+    margin-top: 50px;
+    color: #fff;
+    height: 44px;
+    width: 201px;
+    font-size: 19px;
+    border: 1px;
+    border-radius: 7px;
+    background-color: #63b5ae;
 }
 .main6img{
     width: auto;
     height: 497px;
     background: url("../img/main6bg.jpg") center/cover no-repeat;
     margin-top: 153px;
-    background-attachment: fixed;
 }
 .main6 h3{
     padding-top: 100px;
@@ -295,19 +320,9 @@ main{
     text-transform: uppercase;
     color: #323e4f;
 }
-.main6text1{
-    margin-left: 325px;
-    text-align: center;
-    width: 200px;
-    padding-top: 120px;
-    float: left;
-}
 .main6text{
     text-align: center;
-    width: 200px;
-    float: left;
     padding-top: 120px;
-    margin-left: 90px;
 }
 .zagolovoktext1 h4{
     font-size: 28px;
