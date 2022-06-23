@@ -311,6 +311,7 @@ main{
     height: 497px;
     background: url("../img/main6bg.jpg") center/cover no-repeat;
     margin-top: 153px;
+    background-attachment: fixed;
 }
 .main6 h3{
     padding-top: 100px;
@@ -346,6 +347,22 @@ main{
     font-size: 15px;
     font-weight: bold;
 }
+@media (max-width: 767px){
+    .main6img{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 575px){
+    .main6 h3{
+        padding-top: 50px;
+    }
+    .main6text{
+        padding-top: 40px;
+    }
+    .zagolovoktext1 h4{
+        padding-bottom: 0px;
+    }
+}
 .main7 h3{
     text-align: center;
     font-size: 26px;
@@ -363,8 +380,6 @@ main{
 .main7text{
     text-align: center;
     color: #243042;
-    width: 690px;
-    margin-left: 495px;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -394,17 +409,11 @@ main{
 }
 .main8textzagolovok{
     color: #fff;
-    margin-left: 170px;
-    float: left;
-    width: 135px;
     text-align: center;
 }
 .main8textzagolovok1{
     color: #fff;
-    width: 135px;
     text-align: center;
-    margin-left: 450px;
-    float: left;
 }
 .zagolovokimg2{
     margin-bottom: 15px;
@@ -424,7 +433,6 @@ main{
     padding-bottom: 40px;
 }
 .main8input{
-    margin-left: 438px;
 }
 .main8input input{
     width: 352px;
@@ -601,7 +609,15 @@ main{
 .white-button:visited{
     color: white;
 }
-
+.main5button{
+    transition: all 0.2s;
+}
+.main5button:hover{
+    transform: scale(1.1);
+}
+.main5button:active{
+    transform: scale(1)
+}
 @media (max-width: 992px){
     .title_container, .title_container h4, .title_container input{
         color: white;
