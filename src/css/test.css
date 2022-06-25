@@ -1,44 +1,85 @@
 body{
     font-family: Arial, sans-serif;
 }
-.main6img{
+.main8img{
+    background: url("../img/lastbg.jpg") center/cover no-repeat;
     width: auto;
-    height: 497px;
-    background: url("../img/main6bg.jpg") center/cover no-repeat;
-    margin-top: 153px;
-    background-attachment: fixed;
+    height: 807px;
+    margin-top: 122px;
 }
-.main6 h3{
-    padding-top: 100px;
+.main8 h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
     font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: bold;
+}
+.main8text{
+    color: #fff;
+}
+.main8text p{
+    display: block;
     text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #323e4f;
+    padding-bottom: 47px;
 }
-.main6text{
+.main8textzagolovok{
+    color: #fff;
     text-align: center;
-    padding-top: 120px;
 }
-.zagolovoktext1 h4{
-    font-size: 28px;
-    padding-bottom: 20px;
-    color: #323e4f;
+.zagolovokimg2{
+    margin-bottom: 15px;
+}
+.zagolovoktext2{
+    font-size: 14px;
+}
+.main8text h4{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 60px;
     font-weight: bold;
+    padding-bottom: 40px;
 }
-.zagolovokimg1{
-    padding-bottom: 20px;
-    padding-left: 5px;
+.main8input input{
+    height: 34px;
+    margin-bottom: 14px;
+    background: rgba(210, 214, 220, 0.93);
+    font-size: 16px;
+    width: 100%;
+    padding-left: 15px;
 }
-.main6text p{
-    color: #323e4f;
-    text-transform: uppercase;
-    font-size: 15px;
+.main8input .main8input2{
+    float: right;
+}
+.main8input1{
+    display: block;
+    text-align: center;
+}
+.main8input1 textarea{
+    background: #d2d6dc;
+    margin-top: 16px;
+    width: 650px;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.main8input2 input{
+    font-size: 16px;
     font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+    border: 3px solid #f9faff;
+    border-radius: 5px;
+    background: none;
+    height: 42px;
+    width: 120px;
 }
-.main6text1 p{
-    color: #323e4f;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
+.contacts_inputs input{
+    height: 34px;
+    margin-bottom: 14px;
+    background: rgba(210, 214, 220, 0.93);
+    font-size: 16px;
+    width: 100%;
+    padding-left: 15px;
 }
