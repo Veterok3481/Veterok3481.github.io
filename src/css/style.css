@@ -254,6 +254,7 @@ main{
     color: #1c2534;
 }
 #main5select1{
+    width: 100%;
     margin-left: 20px;
     display: block;
     color: #737373;
@@ -262,6 +263,7 @@ main{
     background-color: #eeeeee;
 }
 #main5select2{
+    width: 100%;
     margin-left: 20px;
     display: block;
     color: #737373;
@@ -270,6 +272,7 @@ main{
     background-color: #eeeeee;
 }
 #main5select3{
+    width: 100%;
     margin-left: 20px;
     display: block;
     color: #737373;
@@ -441,18 +444,31 @@ main{
     height: 120px;
     padding-left: 10px;
     padding-top: 7px;
-    resize: none;
+}
+.main8input2{
+    text-align: center;
 }
 .main8input2 input{
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 0 auto;
     border: 3px solid #f9faff;
     border-radius: 5px;
     background: none;
     height: 42px;
     width: 120px;
+}
+@media (max-width: 575px){
+    .zagolovokimg2{
+    margin-top: 30px;
+    }
+    .main8text p{
+     padding-bottom: 0px;    
+    }
+    .main8 h3{
+     padding-bottom: 30px;
+    }
 }
 .main9img{
     background: url("../img/map.jpg") center/cover no-repeat;
