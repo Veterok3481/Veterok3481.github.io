@@ -389,7 +389,7 @@ main{
     margin-bottom: 30px;
 }
 .main8img{
-    background: url("../img/lastbg.jpg") center/cover no-repeat;
+    background: url("../img/bg4.jpg") center/cover no-repeat;
     width: auto;
     height: 807px;
     margin-top: 122px;
@@ -459,6 +459,77 @@ main{
     height: 42px;
     width: 120px;
 }
+.main8images{
+    padding-top: 40px;
+}
+.main8images img{
+    height: 30px;
+}
+.main8images a{
+    display: inline-block;
+
+    margin: 0 auto;
+}
+.main8img1{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img1:hover{
+    transform: scale(1.1)
+}
+.main8img1:active{
+    transform: scale(1)
+}
+.main8img2{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img2:hover{
+    transform: scale(1.1)
+}
+.main8img2:active{
+    transform: scale(1)
+}
+.main8img3{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img3:hover{
+    transform: scale(1.1)
+}
+.main8img3:active{
+    transform: scale(1)
+}
+.main8img4{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img4:hover{
+    transform: scale(1.1)
+}
+.main8img4:active{
+    transform: scale(1)
+}
+.main8img5{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img5:hover{
+    transform: scale(1.1)
+}
+.main8img5:active{
+    transform: scale(1)
+}
+.main8img6{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+.main8img6:hover{
+    transform: scale(1.1)
+}
+.main8img6:active{
+    transform: scale(1)
+}
 @media (max-width: 575px){
     .zagolovokimg2{
     margin-top: 30px;
@@ -468,6 +539,16 @@ main{
     }
     .main8 h3{
      padding-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .main8img{
+        height: 850px;
+    }
+}
+@media (max-width: 575px){
+    .main8img{
+        height: 980px;
     }
 }
 .main9img{
