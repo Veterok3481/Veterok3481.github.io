@@ -9,18 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  
+<div class="preloader">
+ <div class="spinner">
+  <div class="cube1"></div>
+  <div class="cube2"></div>
+  </div>
+</div>
+   
     <header>
         <nav>
            <div class="container">
                <div class="row">
                <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Цыбаев Лев</div></div>
                <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
-                <li><a href="">Обо мне</a></li>
-                <li><a href="">Услуги</a></li>
-                <li><a href="">Кейсы</a></li>
-                <li><a href="">Прайс</a></li>
-                <li><a href="">Отзывы</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="#me">Обо мне</a></li>
+                <li><a href="#chto">Услуги</a></li>
+                <li><a href="#case">Кейсы</a></li>
+                <li><a href="#price">Прайс</a></li>
+                <li><a href="#otzivi">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul></div></div>
              <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
               <div class="dropdown">
@@ -56,15 +64,15 @@
         </div></section>
     </main>
     
-    <div class="main2"><h3>ОБО МНЕ</h3></div>
+    <section class ="section" id="me"><div class="main2"><h3>ОБО МНЕ</h3></div>
 
     <img class="main2img" src="../src/img/mini_boy.png" alt="mini_boy">
     <div class="main2text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus exercitationem optio aliquid cupiditate nemo omnis magni ratione incidunt minima non.</div>
     
     <div class="main2text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus exercitationem optio aliquid cupiditate nemo omnis magni ratione incidunt minima <br>
-    <input type="button" value="Скачать резюме"></div>
+    <input type="button" value="Скачать резюме"></div></section>
     
-    <div class="main3img"><div class="main3"><h3>ЧТО Я УМЕЮ</h3></div>
+    <section class ="section" id="chto"><div class="main3img"><div class="main3"><h3>ЧТО Я УМЕЮ</h3></div>
     <div class="container">
     <div class="row justify-content-center">
        <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6"><div class="main3text"><img class="zagolovokimg" src="../src/img/laptop.png" alt=""><div class="zagolovoktext">Веб-дизайн</div>
@@ -78,8 +86,9 @@
     </div>
     </div>
    </div>
+   </section>
     
-    <div class="main4"><h3>КЕЙСЫ</h3></div>
+    <section class ="section" id="case"><div class="main4"><h3>КЕЙСЫ</h3></div>
     <div class="main4divtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ratione autem quae nostrum eius natus quos obcaecati quidem vel animi?</div>
     <div class="container">
     <div class="row justify-content-between">
@@ -94,32 +103,37 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos amet rerum reiciendis sint, voluptate sed error. Architecto soluta ab, nesciunt.</p></div></div>
     </div>
     </div>
+    </section>
     
-    <div class="main5"><h2>Расчёт стоимости</h2></div>
+    <section class ="section" id="price"><div class="main5"><h2>Расчёт стоимости</h2></div>
     <div class="container">
     <div class="row"><div class="col-9 col-md-4 offset-sm-1"><div class="main5textpadding">ТИП САЙТА</div></div></div>
-    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select1">
-        <option value="select1">Выберите пункт...</option>
-        <option value="select2">Выберите пункт...</option>
-        <option value="select3">Выберите пункт...</option>
+    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select1" class="select1">
+        <option value="0" days="0" selected disabled>Выберите пункт</option>
+        <option value="2000" days="2">Сайт-визитка</option>
+        <option value="3000" days="3">Корпоротивный сайт</option>
+        <option value="6000" days="4">Интернет-магазин</option>
     </select></div></div>
     <div class="row"><div class="col-9 col-md-3 offset-sm-1"><div class="main5text">ДИЗАЙН</div></div></div>
-    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select2">
-        <option value="select1">Выберите пункт...</option>
-        <option value="select2">Выберите пункт...</option>
-        <option value="select3">Выберите пункт...</option>
+    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select2" class="select2">
+        <option value="0" days="0" selected disabled>Выберите пункт</option>
+        <option value="2000" days="2">Шаблонный</option>
+        <option value="3000" days="3">Уникальный</option>
+        <option value="6000" days="4">WOW-Дизайн</option>
     </select></div></div>
     <div class="row"><div class="col-9 col-md-3 offset-sm-1"><div class="main5text">АДАПТИВНОСТЬ</div></div></div>
-    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select3">
-        <option value="select1">Выберите пункт...</option>
-        <option value="select2">Выберите пункт...</option>
-        <option value="select3">Выберите пункт...</option>
+    <div class="row"><div class="col-9 col-md-9 offset-sm-1"><select name="main5select" id="main5select3" class="select3">
+        <option value="0" days="0" selected disabled>Выберите пункт</option>
+        <option value="2000" days="2">Только ПК</option>
+        <option value="3000" days="3">Только мобильный сайт</option>
+        <option value="6000" days="4">ПК + Мобильный</option>
     </select></div></div>
-    <div class="row"><div class="col-5 offset-sm-1"><div class="main5text1">Сроки <div class="main5text0">0</div></div></div></div>
-    <div class="row"><div class="col-5 offset-sm-1"><div class="main5text1">Стоимость <div class="main5text00">0</div></div></div>
+    <div class="row"><div class="col-5 offset-sm-1"><div class="days"><div class="main5text1">Сроки <div class="main5text0">0</div></div></div></div></div>
+    <div class="row"><div class="col-5 offset-sm-1"><div class="price"><div class="main5text1">Стоимость <div class="main5text00">0</div></div></div></div>
     </div>
     <div class="main5button"><input type="button" value="Оставить заявку"></div>
     </div>
+    </section>
     
     <div class="main6img"><div class="main6"><h3>НЕМНОГО СТАТИСТИКИ</h3></div>
     <div class="container">
@@ -136,7 +150,7 @@
     </div>
     </div>
     
-    <div class="main7"><h3>ОТЗЫВЫ</h3></div>
+    <section class ="section" id="otzivi"><div class="main7"><h3>ОТЗЫВЫ</h3></div>
     <img class="main7img" src="../src/img/zdarova.png" alt="">
     <div class="container">
     <div class="row">
@@ -145,8 +159,9 @@
     <div class="col-lg-4 offset-lg-4"><div class=main7text><b>Михаил,</b> Ген директор ПАО"Газпром".</div></div>
     </div>
     </div>
+    </section>
     
-    <div class="main8img"><div class="main8"><h3>МОИ КОНТАКТЫ</h3></div>
+    <section class ="section" id="contacts"><div class="main8img"><div class="main8"><h3>МОИ КОНТАКТЫ</h3></div>
     <div class="container">
     <div class="row">
     <div class="main8text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi quo deleniti nemo, culpa necessitatibus dolorem totam mollitia quos nihil!</p></div></div>
@@ -184,12 +199,15 @@
     </div>
     </div>
     </div>
+    </section>
     
     <div class="main9img"><div class="main9">I'M HERE</div>
     
     </div>
     <div class="main10"><div class="main10text">Copyright © 2021 Андрей Браун. Design by Web</div></div>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/calc.js"></script>
 </body>
 </html>
