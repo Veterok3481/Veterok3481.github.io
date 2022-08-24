@@ -1,5 +1,3 @@
-$(document).ready(function(){
-    $('.hello').click(function(){
-     alert("its Work");  
-    });
+$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
 });

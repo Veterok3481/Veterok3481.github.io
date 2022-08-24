@@ -924,5 +924,5 @@ main{
   }
 }
 .menu li a.active{
-    color: red;
+    color: #ea8500;
 }

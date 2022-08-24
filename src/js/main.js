@@ -8,7 +8,7 @@ $(window).scroll(() => {
     
     $('.section').each((i, el) => {
         
-        if ($(el).offset().top - $('.nav').outerHeight() <= scrollDistance){
+        if ($(el).offset().top - $('nav').outerHeight() <= scrollDistance){
             $('nav a').each((i, el) =>{
                 if ($(el).hasClass('active')){
                     $(el).removeClass('active');
