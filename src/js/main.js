@@ -18,3 +18,11 @@ $(window).scroll(() => {
         }
     });
 });
+
+//$("modalbutton").click();
+
+function modal() {
+    $("#modalbutton").click();
+}
+
+setTimeout(modal(), 50000)

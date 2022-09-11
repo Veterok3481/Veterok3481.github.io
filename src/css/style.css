@@ -926,3 +926,6 @@ main{
 .menu li a.active{
     color: #ea8500;
 }
+#modalbutton{
+    display: none;
+}
