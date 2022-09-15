@@ -25,4 +25,4 @@ function modal() {
     $("#modalbutton").click();
 }
 
-setTimeout(modal(), 50000)
+setTimeout(modal, 10000)

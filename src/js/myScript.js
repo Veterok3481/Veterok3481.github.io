@@ -1,11 +1,10 @@
-$(document).ready(function() {
-  $('.image-link').magnificPopup({type:'image'});
-});
+//$(document).ready(function() {
+  //$('.image-link').magnificPopup({type:'image'});
+//});
 
 $(document).ready(function () {
- 
-    var show = true;
-    var countbox = ".benefits__inner";
+ var show = true;
+ var countbox = ".benefits__inner";
     $(window).on("scroll load resize", function () {
         if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
         var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
