@@ -331,7 +331,6 @@ main{
 }
 .zagolovoktext1 h4{
     font-size: 28px;
-    padding-bottom: 20px;
     color: #323e4f;
     font-weight: bold;
 }
@@ -928,4 +927,10 @@ main{
 }
 #modalbutton{
     display: none;
+}
+.benefits__number{
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: #323e4f;
+    font-weight: bold;
 }
