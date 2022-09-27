@@ -5,6 +5,7 @@
     <title>Веб-разработчик</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <link rel="stylesheet" href="./css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +89,7 @@
         </div></section>
     </main>
     
-    <section class ="section" id="me"><div class="main2"><h3>ОБО МНЕ</h3></div>
+    <section class ="section" id="me"><div class="main2 wow animate__animated animate__bounce"><h3>ОБО МНЕ</h3></div>
 
     <img class="main2img" src="../src/img/mini_boy.png" alt="mini_boy">
     <div class="main2text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus exercitationem optio aliquid cupiditate nemo omnis magni ratione incidunt minima non.</div>
@@ -195,7 +196,9 @@
     </div>
     
     <section class ="section" id="otzivi"><div class="main7"><h3>ОТЗЫВЫ</h3></div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="container">
+    <div class="row">
+    <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner carousel-otzivi">
     <div class="carousel-item active">
       <img src="./img/zdarova.png" class="d-block mx-auto" alt="...">
@@ -207,17 +210,15 @@
       <img src="./img/zdarova.png" class="d-block mx-auto" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"  data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Предыдущий</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"  data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Следующий</span>
   </button>
 </div>
-    <div class="container">
-    <div class="row">
     <div class="col-lg-8 offset-lg-2"><div class="main7text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aliquam architecto fugit in, a, iste commodi alias. Suscipit, praesentium facere.</div></div></div>
     <div class="row">
     <div class="col-lg-4 offset-lg-4"><div class=main7text><b>Михаил,</b> Ген директор ПАО"Газпром".</div></div>
@@ -235,13 +236,15 @@
     <div class="col-sm-4 col-md-3 col-lg-2"><div class="main8textzagolovok"><img class="zagolovokimg2" src="./img/pozvonimame.png" alt=""><div class="zagolovoktext2">+7 999 999-99-99</div></div></div></div>
     
     <div class="main8text"><h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4></div>
+    <form action="">
     <div class="main8input row justify-content-center text-center">
     <div class="col-6 col-md-5 col-lg-4"><input type="text" name="text_input" placeholder="Имя"></div>
-    <div class="col-6 col-md-5 col-lg-4"><input class="secondinput" type="text" name="text_input1" placeholder="Email"></div></div>
-    
+    <div class="col-6 col-md-5 col-lg-4"><input class="secondinput" id="inputTel" required type="phone" name="text_input1" placeholder="Телефон"></div></div>
     <div class="row justify-content-center text-center">
     <div class="col-12 col-md-10 col-lg-8"><div class="main8input1"><textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="10"></textarea></div></div></div></div>
     <div class="main8input2"><input type="submit" value="Отправить"></div>
+    </form>
+    
     <div class="main8images row justify-content-center text-center">
     <div class="main8img1 col-4 col-md-1 ">
     <a href="#"><img src="img/fb.png" alt=""></a>
@@ -273,6 +276,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.spincrement.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/myScript.js"></script>
     <script src="js/calc.js"></script>

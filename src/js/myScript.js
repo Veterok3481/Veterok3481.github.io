@@ -3,6 +3,7 @@
 //});
 
 $(document).ready(function () {
+ new WOW().init();
  var show = true;
  var countbox = ".benefits__inner";
     $(window).on("scroll load resize", function () {
@@ -24,3 +25,5 @@ $(document).ready(function () {
     });
  
 });
+
+$("#inputTel").mask("+7(999) 999-9999");
